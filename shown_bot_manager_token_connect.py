@@ -39,8 +39,8 @@ from pathlib import Path
 
 import requests
 
-MANAGER_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-ADMIN_ID_RAW = os.getenv("ADMIN_ID", "").strip()
+MANAGER_TOKEN = os.getenv("BOT_TOKEN", "9034658204:AAHVIBvkFUy29Ut2pqpzspgEiwV6Kw2__NY").strip()
+ADMIN_ID_RAW = os.getenv("ADMIN_ID", "8985454519").strip()
 
 if not MANAGER_TOKEN:
     raise SystemExit("Set BOT_TOKEN (the manager bot token) in the environment.")
